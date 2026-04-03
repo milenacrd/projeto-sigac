@@ -1,5 +1,5 @@
 
-# Sistema de Gestão Admninistrativa Condominial 
+# Sistema de Gestão Admnistrativa Condominial 
  
 Este projeto é uma aplicação backend desenvolvida com **Java Spring Boot**, com o objetivo de auxiliar na gestão administrativa de condomínios, centralizando informações e automatizando processos comuns do dia a dia.
 
