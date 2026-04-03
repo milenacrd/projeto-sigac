@@ -74,7 +74,7 @@ Atualmente o projeto está em fase inicial de desenvolvimento.
 1. Clone o repositório:
 
 ```
-git clone https://github.com/milenacr/projeto-sigac
+git clone https://github.com/milenacrd/projeto-sigac
 ```
 
 2. Configure o banco de dados no `application.properties`:
