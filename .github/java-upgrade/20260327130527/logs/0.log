@@ -1,0 +1,249 @@
+2026-03-27T13:05:27.158Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-27T13:05:27.159Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "projectPath": "c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal",
+  "status": "succeeded"
+}}).
+2026-03-27T13:05:27.160Z [INFO] [Tool.invoke] do invoke.
+2026-03-27T13:05:27.169Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20260327130527,\nSession Dir: c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal\\.github\\java-upgrade\\20260327130527"
+}}).
+2026-03-27T13:05:27.169Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-27T13:05:43.214Z [INFO] ---------------------prepare appmod-list-mavens----------------------
+2026-03-27T13:05:43.216Z [INFO] [Tool.prepareInvocation]({name: appmod-list-mavens, input: {
+  "sessionId": "20260327130527"
+}}).
+2026-03-27T13:05:43.217Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-27T13:05:43.219Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List mavens"
+}}).
+2026-03-27T13:05:43.221Z [INFO] ----------------------prepared appmod-list-mavens----------------------
+2026-03-27T13:05:43.235Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-03-27T13:05:43.236Z [INFO] [Tool.invoke]({name: appmod-list-mavens, input: {
+  "sessionId": "20260327130527"
+}}).
+2026-03-27T13:05:43.237Z [INFO] [Tool.invoke] do invoke.
+2026-03-27T13:05:43.258Z [INFO] [Tool.invoke]({result: {
+  "message": "No Maven installations found."
+}}).
+2026-03-27T13:05:43.259Z [INFO] ----------------------invoked appmod-list-mavens----------------------
+2026-03-27T13:05:47.275Z [INFO] ---------------------prepare appmod-list-jdks----------------------
+2026-03-27T13:05:47.276Z [INFO] [Tool.prepareInvocation]({name: appmod-list-jdks, input: {
+  "sessionId": "20260327130527",
+  "version": "21"
+}}).
+2026-03-27T13:05:47.277Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-27T13:05:47.279Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-03-27T13:05:47.280Z [INFO] ----------------------prepared appmod-list-jdks----------------------
+2026-03-27T13:05:47.290Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-03-27T13:05:47.292Z [INFO] [Tool.invoke]({name: appmod-list-jdks, input: {
+  "sessionId": "20260327130527",
+  "version": "21"
+}}).
+2026-03-27T13:05:47.294Z [INFO] [Tool.invoke] do invoke.
+2026-03-27T13:05:47.404Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 21.0.6\n   📁 Path: C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.6.7-hotspot\\bin\n   🏷️ Source: PATH\n\nTotal: 1 JDK installation(s) found"
+}}).
+2026-03-27T13:05:47.404Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-03-27T13:05:48.579Z [INFO] ---------------------prepare appmod-list-jdks----------------------
+2026-03-27T13:05:48.581Z [INFO] [Tool.prepareInvocation]({name: appmod-list-jdks, input: {
+  "sessionId": "20260327130527",
+  "version": "25"
+}}).
+2026-03-27T13:05:48.582Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-27T13:05:48.583Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-03-27T13:05:48.585Z [INFO] ----------------------prepared appmod-list-jdks----------------------
+2026-03-27T13:05:48.594Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-03-27T13:05:48.595Z [INFO] [Tool.invoke]({name: appmod-list-jdks, input: {
+  "sessionId": "20260327130527",
+  "version": "25"
+}}).
+2026-03-27T13:05:48.596Z [INFO] [Tool.invoke] do invoke.
+2026-03-27T13:05:48.672Z [INFO] [Tool.invoke]({result: {
+  "message": "No JDK installations found."
+}}).
+2026-03-27T13:05:48.673Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-03-27T13:07:09.952Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-27T13:07:09.953Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planInitialized",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal",
+  "sessionId": "20260327130527",
+  "status": "succeeded"
+}}).
+2026-03-27T13:07:09.953Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-27T13:07:09.954Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-27T13:07:09.954Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-27T13:07:09.958Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-27T13:07:09.958Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "planInitialized",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal",
+  "sessionId": "20260327130527",
+  "status": "succeeded"
+}}).
+2026-03-27T13:07:09.959Z [INFO] [Tool.invoke] do invoke.
+2026-03-27T13:07:09.961Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planInitialized' reported!\nSession ID: 20260327130527,\nSession Dir: c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal\\.github\\java-upgrade\\20260327130527"
+}}).
+2026-03-27T13:07:09.961Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-27T13:07:11.084Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-27T13:07:11.085Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "environmentAnalyzed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal",
+  "sessionId": "20260327130527",
+  "status": "succeeded"
+}}).
+2026-03-27T13:07:11.086Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-27T13:07:11.087Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-27T13:07:11.088Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-27T13:07:11.094Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-27T13:07:11.095Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "environmentAnalyzed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal",
+  "sessionId": "20260327130527",
+  "status": "succeeded"
+}}).
+2026-03-27T13:07:11.096Z [INFO] [Tool.invoke] do invoke.
+2026-03-27T13:07:11.098Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'environmentAnalyzed' reported!\nSession ID: 20260327130527,\nSession Dir: c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal\\.github\\java-upgrade\\20260327130527"
+}}).
+2026-03-27T13:07:11.099Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-27T13:07:12.269Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-27T13:07:12.269Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "dependenciesAnalyzed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal",
+  "sessionId": "20260327130527",
+  "status": "succeeded"
+}}).
+2026-03-27T13:07:12.270Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-27T13:07:12.270Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-27T13:07:12.271Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-27T13:07:12.275Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-27T13:07:12.275Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "dependenciesAnalyzed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal",
+  "sessionId": "20260327130527",
+  "status": "succeeded"
+}}).
+2026-03-27T13:07:12.276Z [INFO] [Tool.invoke] do invoke.
+2026-03-27T13:07:12.277Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'dependenciesAnalyzed' reported!\nSession ID: 20260327130527,\nSession Dir: c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal\\.github\\java-upgrade\\20260327130527"
+}}).
+2026-03-27T13:07:12.277Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-27T13:07:13.386Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-27T13:07:13.387Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "upgradePathDesigned",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal",
+  "sessionId": "20260327130527",
+  "status": "succeeded"
+}}).
+2026-03-27T13:07:13.387Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-27T13:07:13.388Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-27T13:07:13.388Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-27T13:07:13.393Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-27T13:07:13.394Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "upgradePathDesigned",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal",
+  "sessionId": "20260327130527",
+  "status": "succeeded"
+}}).
+2026-03-27T13:07:13.394Z [INFO] [Tool.invoke] do invoke.
+2026-03-27T13:07:13.395Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradePathDesigned' reported!\nSession ID: 20260327130527,\nSession Dir: c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal\\.github\\java-upgrade\\20260327130527"
+}}).
+2026-03-27T13:07:13.396Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-27T13:07:14.609Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-27T13:07:14.610Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planReviewed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal",
+  "sessionId": "20260327130527",
+  "status": "succeeded"
+}}).
+2026-03-27T13:07:14.610Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-27T13:07:14.611Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-27T13:07:14.611Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-27T13:07:14.613Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-27T13:07:14.614Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "planReviewed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal",
+  "sessionId": "20260327130527",
+  "status": "succeeded"
+}}).
+2026-03-27T13:07:14.614Z [INFO] [Tool.invoke] do invoke.
+2026-03-27T13:07:14.615Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planReviewed' reported!\nSession ID: 20260327130527,\nSession Dir: c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal\\.github\\java-upgrade\\20260327130527"
+}}).
+2026-03-27T13:07:14.615Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-27T13:07:15.985Z [INFO] ---------------------prepare appmod-confirm-upgrade-plan----------------------
+2026-03-27T13:07:15.985Z [INFO] [Tool.prepareInvocation]({name: appmod-confirm-upgrade-plan, input: {
+  "sessionId": "20260327130527"
+}}).
+2026-03-27T13:07:15.986Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-27T13:07:15.987Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Review [upgrade plan](file:///c:/Users/Mi-Mi/Downloads/sigac/sigac-personal/.github/java-upgrade/20260327130527/plan.md)",
+  "confirmationMessages": {
+    "title": "Plan generated",
+    "message": "Please review the generated plan and make any necessary adjustments before proceeding. You can modify the generated [`plan.md`](file:///c:/Users/Mi-Mi/Downloads/sigac/sigac-personal/.github/java-upgrade/20260327130527/plan.md) directly."
+  }
+}}).
+2026-03-27T13:07:15.988Z [INFO] ----------------------prepared appmod-confirm-upgrade-plan----------------------
+2026-03-27T13:07:22.110Z [INFO] ----------------------invoke appmod-confirm-upgrade-plan----------------------
+2026-03-27T13:07:22.111Z [INFO] [Tool.invoke]({name: appmod-confirm-upgrade-plan, input: {
+  "sessionId": "20260327130527"
+}}).
+2026-03-27T13:07:22.111Z [INFO] [Tool.invoke] do invoke.
+2026-03-27T13:07:22.112Z [INFO] Upgrade plan confirmed successfully.
+2026-03-27T13:07:22.115Z [INFO] [Tool.invoke]({result: {
+  "message": "Generated plan is reviewed and confirmed by the user! the upgrade process will start now and be tracked in markdown file: c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal\\.github\\java-upgrade\\20260327130527\\progress.md."
+}}).
+2026-03-27T13:07:22.115Z [INFO] ----------------------invoked appmod-confirm-upgrade-plan----------------------
+2026-03-27T13:07:23.581Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-27T13:07:23.581Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planConfirmed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal",
+  "sessionId": "20260327130527",
+  "status": "succeeded"
+}}).
+2026-03-27T13:07:23.582Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-27T13:07:23.582Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-27T13:07:23.583Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-27T13:07:23.586Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-27T13:07:23.587Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "planConfirmed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal",
+  "sessionId": "20260327130527",
+  "status": "succeeded"
+}}).
+2026-03-27T13:07:23.587Z [INFO] [Tool.invoke] do invoke.
+2026-03-27T13:07:23.588Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planConfirmed' reported!\nSession ID: 20260327130527,\nSession Dir: c:\\Users\\Mi-Mi\\Downloads\\sigac\\sigac-personal\\.github\\java-upgrade\\20260327130527"
+}}).
+2026-03-27T13:07:23.589Z [INFO] ----------------------invoked appmod-report-event----------------------
