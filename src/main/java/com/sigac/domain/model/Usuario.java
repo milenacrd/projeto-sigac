@@ -46,4 +46,8 @@ public class Usuario {
     public Usuario(Long id, String nome, String email, String senha, TipoUsuario tipoUsuario) {
         this.tipoUsuario = tipoUsuario;
     }
+
+    public Usuario orElseThrow() {
+        return null;
+    }
 }
